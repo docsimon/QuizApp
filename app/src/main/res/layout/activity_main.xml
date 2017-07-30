@@ -11,19 +11,100 @@
         android:orientation="vertical">
 
         <TextView
+            style="@style/MainTitleTextStyle"
             android:layout_marginBottom="16dp"
             android:text="The Chess Quiz App"
-            style="@style/MainTitleTextStyle"
             android:textColor="#757575" />
 
         <ImageView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:scaleType="centerCrop"
             android:layout_marginBottom="16dp"
-            android:src="@drawable/chess1"/>
+            android:scaleType="centerCrop"
+            android:src="@drawable/chess1" />
+
+        <EditText
+            android:id="@+id/userName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:hint="@string/name_placeholder"
+            android:inputType="textCapWords" />
+
+        <TextView
+            style="@style/NoticeStyle"
+            android:layout_marginBottom="16dp"
+            android:text="@string/notice"
+            android:textColor="#757575" />
+
+        <!-- Question 1 -->
+        <TextView
+            style="@style/QuestionStyle"
+            android:layout_marginBottom="16dp"
+            android:text="@string/question_1"
+            android:textColor="#757575" />
+
+        <CheckBox
+            android:id="@+id/answer_1_1"
+            style="@style/AnswerStyle"
+            android:text="@string/answer_1_1" />
+
+        <CheckBox
+            android:id="@+id/answer_1_2"
+            style="@style/AnswerStyle"
+            android:text="@string/answer_1_2" />
+
+        <View
+            style="@style/BarStyle"/>
+
+        <!-- Question 2 -->
+        <TextView
+            style="@style/QuestionStyle"
+            android:layout_marginBottom="16dp"
+            android:text="@string/question_2"
+            android:textColor="#757575" />
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <RadioButton android:id="@+id/radio_ans_2_1"
+                style="@style/AnswerStyle"
+                android:text="@string/answer_2_1" />
+            <RadioButton android:id="@+id/radio_ans_2_2"
+                style="@style/AnswerStyle"
+                android:text="@string/answer_2_2" />
+        </RadioGroup>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/darker_gray" />
+
+        <!-- Question 3 -->
+        <TextView
+            style="@style/QuestionStyle"
+            android:layout_marginBottom="16dp"
+            android:text="@string/question_3"
+            android:textColor="#757575" />
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <RadioButton android:id="@+id/radio_ans_3_1"
+                style="@style/AnswerStyle"
+                android:text="@string/answer_3_1" />
+            <RadioButton android:id="@+id/radio_ans_3_2"
+                style="@style/AnswerStyle"
+                android:text="@string/answer_3_2" />
+        </RadioGroup>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/darker_gray" />
 
     </LinearLayout>
 
-
-    </ScrollView>
+</ScrollView>
