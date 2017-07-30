@@ -4,12 +4,24 @@
     <string name="name_placeholder">insert your name</string>
     <string name="question_1">1. Which way can a Queen move?</string>
     <string name="notice">Note: check all the answers that apply</string>
-    <string name="answer_1_1">vertically and horizontally</string>
+    <string name="answer_1_1">Vertically</string>
     <string name="answer_2_2">Queen, Rook, Knight and Bishop</string>
-    <string name="answer_1_2">diagonally</string>
+    <string name="answer_1_2">Diagonally</string>
     <string name="question_2">2. What piece can a pawn be promoted to?</string>
-    <string name="answer_2_1">Only Queen and Rook</string>
+    <string name="answer_2_1">Queen</string>
     <string name="question_3">3. What is the most important piece?</string>
     <string name="answer_3_1">Queen</string>
     <string name="answer_3_2">King</string>
+    <string name="question_4">4. Which of the following was a great chess player?</string>
+    <string name="answer_4_1">Capablanca</string>
+    <string name="answer_4_2">Caparocha</string>
+    <string name="answer_4_3">Capirinha</string>
+    <string name="question_5">5. What is the most used type of chess notation?</string>
+    <string name="answer_5_1">Geometric notation</string>
+    <string name="answer_5_2">Algebraic notation</string>
+    <string name="answer_5_3">Russian notation</string>
+    <string name="answer_1_3">Circularly</string>
+    <string name="answer_2_3">General</string>
+    <string name="answer_3_3">Emperor</string>
+    <string name="button_quiz">Finish</string>
 </resources>
