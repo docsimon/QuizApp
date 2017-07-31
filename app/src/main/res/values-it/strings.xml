@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">QuizApp</string>
+    <string name="answer_1_1">Verticale</string>
+    <string name="answer_1_2">Diagonale</string>
+    <string name="answer_1_3">Circolare</string>
+    <string name="answer_2_1">Regina</string>
+    <string name="answer_2_2">Regina, Torre, Cavallo e Alfiere</string>
+    <string name="answer_2_3">Generale</string>
+    <string name="answer_3_1">Regina</string>
+    <string name="answer_3_2">Re</string>
+    <string name="answer_3_3">Imperatore</string>
+    <string name="answer_5_1">Notazione Geometrica</string>
+    <string name="answer_5_2">Notazione Algebrica</string>
+    <string name="answer_5_3">Notazione Russa</string>
+    <string name="button_quiz">Fine</string>
+    <string name="grade_msg">Ciao %1$s hai risposto a %2$d domande su 5</string>
+    <string name="name_placeholder">inserisci il tuo nome</string>
+    <string name="notice">Nota: seleziona le risposte corrette</string>
+    <string name="question_1">1. In quali direzioni si muove la Regina?</string>
+    <string name="question_2">2. In quali pezzi puo\' essere promosso il pedone?</string>
+    <string name="question_3">3. Qual e\' il pezzo piu\' importante nella scacchiera?</string>
+    <string name="question_4">4. Quale dei seguenti e\' stato un grande giocatore di scacchi?</string>
+    <string name="question_5">5. Qual e\' il tipo di notazione piu\' usata negli scacchi?</string>
+</resources>

@@ -1,6 +1,6 @@
 <resources>
     <string name="app_name">QuizApp</string>
-    <string name="main_title">The Chess Quiz App</string>
+    <string name="main_title" translatable="false">The Chess Quiz App</string>
     <string name="name_placeholder">insert your name</string>
     <string name="question_1">1. Which way can a Queen move?</string>
     <string name="notice">Note: check all the answers that apply</string>
@@ -9,13 +9,13 @@
     <string name="answer_1_2">Diagonally</string>
     <string name="question_2">2. What piece can a pawn be promoted to?</string>
     <string name="answer_2_1">Queen</string>
-    <string name="question_3">3. What is the most important piece?</string>
+    <string name="question_3">3. What is the most important piece in the chessboard?</string>
     <string name="answer_3_1">Queen</string>
     <string name="answer_3_2">King</string>
     <string name="question_4">4. Which of the following was a great chess player?</string>
-    <string name="answer_4_1">Capablanca</string>
-    <string name="answer_4_2">Caparocha</string>
-    <string name="answer_4_3">Capirinha</string>
+    <string name="answer_4_1" translatable="false">Capablanca</string>
+    <string name="answer_4_2" translatable="false">Caparocha</string>
+    <string name="answer_4_3" translatable="false">Capirinha</string>
     <string name="question_5">5. What is the most used type of chess notation?</string>
     <string name="answer_5_1">Geometric notation</string>
     <string name="answer_5_2">Algebraic notation</string>

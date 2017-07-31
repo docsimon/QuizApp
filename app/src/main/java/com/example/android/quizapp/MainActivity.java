@@ -13,7 +13,6 @@ import static com.example.android.quizapp.R.id.radioGroupQuestion_2;
 public class MainActivity extends AppCompatActivity {
 
     int score = 0;
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -27,7 +26,6 @@ public class MainActivity extends AppCompatActivity {
         Toast.makeText(this, message, Toast.LENGTH_SHORT).show();
         //reset values
         score = 0;
-
     }
 
     private String getUserName(){
@@ -44,13 +42,10 @@ public class MainActivity extends AppCompatActivity {
         if (checkBoxAnswer_1_1.isChecked() && checkBoxAnswer_1_2.isChecked() && !checkBoxAnswer_1_3.isChecked()){
             score += 1;
         }
-
         // reset the checkBoxes
         checkBoxAnswer_1_1.setChecked(false);
         checkBoxAnswer_1_2.setChecked(false);
         checkBoxAnswer_1_3.setChecked(false);
-
-
     }
 
     private void radioGroupQuestions(){
@@ -67,27 +62,23 @@ public class MainActivity extends AppCompatActivity {
         if (index == 1){
             score += 1;
         }
-
         //Question 4
         RadioGroup radioGroupQuestion_4 = (RadioGroup) findViewById(R.id.radioGroupQuestion_4);
         index = getSelectedAnswerIndex(radioGroupQuestion_4);
         if (index == 0){
             score += 1;
         }
-
         //Question 5
         RadioGroup radioGroupQuestion_5 = (RadioGroup) findViewById(R.id.radioGroupQuestion_5);
         index = getSelectedAnswerIndex(radioGroupQuestion_5);
         if (index == 1){
             score += 1;
         }
-
         // reset the radiobuttons
         radioGroupQuestion_2.clearCheck();
         radioGroupQuestion_3.clearCheck();
         radioGroupQuestion_4.clearCheck();
         radioGroupQuestion_5.clearCheck();
-
     }
 
     private int getSelectedAnswerIndex(RadioGroup radioGroup){
@@ -96,6 +87,4 @@ public class MainActivity extends AppCompatActivity {
         int index = radioGroup.indexOfChild(radioButton);
         return index;
     }
-
-
 }
