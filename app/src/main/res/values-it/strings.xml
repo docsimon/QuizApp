@@ -22,4 +22,5 @@
     <string name="question_3">3. Qual e\' il pezzo piu\' importante nella scacchiera?</string>
     <string name="question_4">4. Quale dei seguenti e\' stato un grande giocatore di scacchi?</string>
     <string name="question_5">5. Qual e\' il tipo di notazione piu\' usata negli scacchi?</string>
+    <string name="grade_all_correct">Eccellente %1$s hai risposto a tutte le domande correttamente!</string>
 </resources>
